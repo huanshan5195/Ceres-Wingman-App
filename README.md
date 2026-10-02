@@ -93,6 +93,8 @@ Found a bug or have an idea? Please [open an issue](../../issues).
 
 Free for personal, non-commercial use only. You may not use this software commercially, and you may not sell or resell it. See [LICENSE](LICENSE).
 
+For commercial licensing, contact [qhs19950124@outlook.com](mailto:qhs19950124@outlook.com).
+
 The source code isn't public. This repository only hosts the installers and documentation.
 
 Built on the open-source [Hermes Agent](https://github.com/NousResearch/hermes-agent).
