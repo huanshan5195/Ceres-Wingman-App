@@ -5,8 +5,8 @@
 <h1 align="center">Ceres Wingman</h1>
 
 <p align="center">
-  A desktop app for running a team of AI agents on your own computer.<br>
-  Each agent keeps its own model, prompt, memory, skills and schedule.
+  An all-in-one desktop workbench for AI agents.<br>
+  Run many agents at once, with files, a browser and terminals in the same window.
 </p>
 
 <p align="center">
@@ -14,16 +14,16 @@
   macOS (Apple Silicon) · Windows 10/11
 </p>
 
-![Ceres Wingman](screenshots/chat.png)
+![Ceres Wingman](screenshots/workspace.png)
 
 ## Features
 
-- **Multiple agents, all online at once**: give each one its own model and personality.
+- **Many agents at once**: each one has its own model, prompt, memory, skills and schedule, and they all work in parallel.
+- **Built-in files**: browse what your agents produce, then open and edit it right there. Supports Markdown, PDF, Word, Excel, PowerPoint, CSV, code, images, audio and video.
+- **Built-in browser**: open any page next to the chat. Send a page to an agent to summarize or translate, or watch an agent use the page.
+- **Built-in terminals**: run coding agents like Claude Code, Codex or pi side by side. Terminals can keep running after you quit the app.
 - **Any OpenAI-compatible provider**: OpenAI, DeepSeek, Qwen, OpenRouter and others, plus Anthropic-style APIs. You bring your own key.
-- **Real work, not just chat**: agents read and write files, run commands, search the web and use MCP tools. You can watch every step.
-- **Group room**: put a question to several agents and they answer one after another, each seeing what the others said.
-- **Scheduled tasks**: agents run jobs on a timer, and every result lands in one workbench.
-- **Phone access**: use your agents from your phone's browser, with no app and no account needed.
+- **Group room, scheduled tasks and phone access**: let agents discuss together, run jobs on a timer, and reach them from your phone's browser.
 - **Local first**: chats, memory and keys stay on your machine.
 
 ## Install
@@ -60,13 +60,31 @@ Type what you need. Expand **Agent activity** to see each file it read, each com
 
 ![Agent activity](screenshots/activity.png)
 
-### 4. Ask the group
+### 4. Open files
+
+Click **Files** to see everything an agent wrote. Open several files as tabs, and edit them in place.
+
+![Files](screenshots/files.png)
+
+### 5. Browse the web
+
+Click **Browser** to open a page next to the chat. You can send the page to an agent with a task, like summarize or translate.
+
+![Browser](screenshots/browser.png)
+
+### 6. Run agents in the terminal
+
+Click **Terminals**, then **+** to add more. Start a coding agent in each one and click **Tile them all** to watch them work side by side.
+
+![Terminals](screenshots/terminals.png)
+
+### 7. Ask the group
 
 Open **Group room**, choose who joins and pose a question. The agents answer in turn, and you can let the discussion go for more rounds.
 
 ![Group room](screenshots/group-room.png)
 
-### 5. Schedule tasks
+### 8. Schedule tasks
 
 Open **Menu → Scheduled** to have an agent run a job on its own, like every morning or every Friday.
 
@@ -76,7 +94,7 @@ Results from every agent show up in **Workbench**.
 
 ![Workbench](screenshots/workbench.png)
 
-### 6. Use it from your phone
+### 9. Use it from your phone
 
 Open **Settings → Remote** and turn it on. Then open the link on your phone and sign in with the access key.
 
